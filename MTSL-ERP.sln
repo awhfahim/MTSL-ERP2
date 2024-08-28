@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AA277AD5-2411-4C96-B857-61ED7B9D1A23}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FA10DCD8-B527-4100-BABB-77252663F329}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{1D95573C-58C9-42B8-AD52-75A5BD024134}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{1593BA88-6C6C-4970-8C80-12783BF88763}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MtslErp.Api", "src\API\MtslErp.Api\MtslErp.Api.csproj", "{B6820EBD-5A84-43A9-9F88-33934757FDC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{B4873DFA-98F0-487F-B8D5-B0595A72BFEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MtslErp.Common.Application", "src\Common\MtslErp.Common.Application\MtslErp.Common.Application.csproj", "{9BDF0BFE-03BC-4303-A236-97D3ED79832C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SewingMachineManagement", "SewingMachineManagement", "{1AA13E90-B34E-4A0F-AD4B-7E6C3B93E618}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SewingMachineManagement.Infrastructure", "src\Modules\SewingMachineManagement\SewingMachineManagement.Infrastructure\SewingMachineManagement.Infrastructure.csproj", "{12B6CC1E-E53B-4BD6-934B-F20A0CD12D88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SewingMachineManagement.HttpApi", "src\Modules\SewingMachineManagement\SewingMachineManagement.HttpApi\SewingMachineManagement.HttpApi.csproj", "{7BD89725-4719-4E1C-82BE-664A5F36D48B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SewingMachineManagement.Domain", "src\Modules\SewingMachineManagement\SewingMachineManagement.Domain\SewingMachineManagement.Domain.csproj", "{AA9288E2-78EE-421D-818E-B1D70493ED36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SewingMachineManagement.Application", "src\Modules\SewingMachineManagement\SewingMachineManagement.Application\SewingMachineManagement.Application.csproj", "{CFDA8EA0-B172-4D82-8F66-059EB9B68A73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6820EBD-5A84-43A9-9F88-33934757FDC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6820EBD-5A84-43A9-9F88-33934757FDC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6820EBD-5A84-43A9-9F88-33934757FDC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6820EBD-5A84-43A9-9F88-33934757FDC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BDF0BFE-03BC-4303-A236-97D3ED79832C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BDF0BFE-03BC-4303-A236-97D3ED79832C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BDF0BFE-03BC-4303-A236-97D3ED79832C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BDF0BFE-03BC-4303-A236-97D3ED79832C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12B6CC1E-E53B-4BD6-934B-F20A0CD12D88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B6CC1E-E53B-4BD6-934B-F20A0CD12D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B6CC1E-E53B-4BD6-934B-F20A0CD12D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B6CC1E-E53B-4BD6-934B-F20A0CD12D88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD89725-4719-4E1C-82BE-664A5F36D48B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD89725-4719-4E1C-82BE-664A5F36D48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD89725-4719-4E1C-82BE-664A5F36D48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD89725-4719-4E1C-82BE-664A5F36D48B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA9288E2-78EE-421D-818E-B1D70493ED36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA9288E2-78EE-421D-818E-B1D70493ED36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA9288E2-78EE-421D-818E-B1D70493ED36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA9288E2-78EE-421D-818E-B1D70493ED36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFDA8EA0-B172-4D82-8F66-059EB9B68A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFDA8EA0-B172-4D82-8F66-059EB9B68A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFDA8EA0-B172-4D82-8F66-059EB9B68A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFDA8EA0-B172-4D82-8F66-059EB9B68A73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D95573C-58C9-42B8-AD52-75A5BD024134} = {FA10DCD8-B527-4100-BABB-77252663F329}
+		{1593BA88-6C6C-4970-8C80-12783BF88763} = {FA10DCD8-B527-4100-BABB-77252663F329}
+		{B6820EBD-5A84-43A9-9F88-33934757FDC4} = {1D95573C-58C9-42B8-AD52-75A5BD024134}
+		{B4873DFA-98F0-487F-B8D5-B0595A72BFEB} = {FA10DCD8-B527-4100-BABB-77252663F329}
+		{9BDF0BFE-03BC-4303-A236-97D3ED79832C} = {B4873DFA-98F0-487F-B8D5-B0595A72BFEB}
+		{1AA13E90-B34E-4A0F-AD4B-7E6C3B93E618} = {1593BA88-6C6C-4970-8C80-12783BF88763}
+		{12B6CC1E-E53B-4BD6-934B-F20A0CD12D88} = {1AA13E90-B34E-4A0F-AD4B-7E6C3B93E618}
+		{7BD89725-4719-4E1C-82BE-664A5F36D48B} = {1AA13E90-B34E-4A0F-AD4B-7E6C3B93E618}
+		{AA9288E2-78EE-421D-818E-B1D70493ED36} = {1AA13E90-B34E-4A0F-AD4B-7E6C3B93E618}
+		{CFDA8EA0-B172-4D82-8F66-059EB9B68A73} = {1AA13E90-B34E-4A0F-AD4B-7E6C3B93E618}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B88E83A-7318-4933-A76F-4C6EC00F6880}
+	EndGlobalSection
+EndGlobal

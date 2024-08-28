@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.8"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Oracle.EntityFrameworkCore" Version="8.23.50" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.7.3" />
+        <PackageReference Update="SonarAnalyzer.CSharp" Version="9.32.0.97167">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SewingMachineManagement.Application\SewingMachineManagement.Application.csproj" />
+      <ProjectReference Include="..\SewingMachineManagement.Domain\SewingMachineManagement.Domain.csproj" />
+      <ProjectReference Include="..\SewingMachineManagement.Infrastructure\SewingMachineManagement.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>
